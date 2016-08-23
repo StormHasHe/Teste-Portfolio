@@ -23,15 +23,11 @@
 	<!-- Plugin CSS -->
 	<link rel="stylesheet" href="Content/animate.min.css" type="text/css">
 
+    <!-- jCarousel -->
+    <link rel="stylesheet" href="Content/jcarousel.css" type="text/css">
+
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="Content/creative.css" type="text/css">
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
     </head>
 
@@ -99,7 +95,32 @@ Quero incrementar meu portfólio com projetos bacanas e de qualidade. E espero q
     <section class="galery-padding" id="portfolio">
     	<div class="header-content">
             <div class="container divGalery">
-                <div class="row">
+                <div class="wrapper">
+                    <h1 class="roxoHeader">Portfolio</h1>
+                    
+
+                    <p style="text-align: center">Clique em uma imagem para abrir a galeria deste projeto</p>
+
+                    <div class="jcarousel-wrapper">
+                        <div class="jcarousel" data-jcarousel="true">
+                            <ul style="left: 0px; top: 0px;">
+                                <li data-target="#demoLightbox" style="width: 200px;"><img src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" alt="Image 1"></li>
+                                <li style="width: 200px;"><img src="http://th03.deviantart.net/fs70/200H/f/2010/256/0/9/painting_of_nature_by_dhikagraph-d2ynalq.jpg" alt="Image 2"></li>
+                                <li style="width: 200px;"><img src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" alt="Image 3"></li>
+                                <li style="width: 200px;"><img src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" alt="Image 4"></li>
+                                <li style="width: 200px;"><img src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" alt="Image 5"></li>
+                                <li style="width: 200px;"><img src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" alt="Image 6"></li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true">‹</a>
+                        <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true">›</a>
+
+                        <p class="jcarousel-pagination" data-jcarouselpagination="true"><a href="#1" class="active">1</a><a href="#2">2</a><a href="#3">3</a><a href="#4">4</a><a href="#5">5</a><a href="#6">6</a></p>
+                    </div>
+                </div>
+
+                <!-- <div class="row">
                     <div class="col-md-3 col-sm-4 col-xs-6">
                         <a data-toggle="modal" data-target="#demoLightbox">
                             <img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
@@ -126,7 +147,7 @@ Quero incrementar meu portfólio com projetos bacanas e de qualidade. E espero q
                     <div class="col-md-3 col-sm-4 col-xs-6">
                         <img class="img-responsive" src="http://blog.arborday.org/wp-content/uploads/2013/02/NEC1-300x200.jpg" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -236,6 +257,9 @@ Quero incrementar meu portfólio com projetos bacanas e de qualidade. E espero q
     <script src="Content//js/jquery.easing.min.js"></script>
     <script src="Content/js/jquery.fittext.js"></script>
     <script src="Content/js/wow.min.js"></script>
+
+    <!-- jCarousel -->
+    <script src="Content/js/jquery.jcarousel.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="Content/js/creative.js"></script>
