@@ -54,7 +54,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #F1751D;
+    background-color: white;
 }
 
 .bg-dark {
@@ -584,6 +584,20 @@ body {
     pointer-events: all;
 }
 
+@media(max-width: 768px){
+    .modal-dialog-interno{
+        width: 500px;
+    }
+}
+
+@media(max-width: 500px){
+    .modal-dialog-interno{
+        width: 300px;
+    }
+}
+
+
+
 .header-content h1{
     color: black;
 }
@@ -623,7 +637,8 @@ body {
 }
 
 #portfolio{
-    background-image: url(images/planodefundo-cinzaclaro.jpg);
+    /*background-image: url(images/planodefundo-cinzaclaro.jpg);*/
+    background-color: white;
     background-position: center;
     background-size: cover
 }
