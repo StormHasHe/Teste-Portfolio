@@ -628,11 +628,22 @@ body {
     background-size: cover
 }
 
-#contact label{
-    text-align: right;
-    margin-top: 7px;
-    margin-right: -20px;
-    color: #868485;
+@media(min-width: 768px){
+    #contact label{
+        text-align: right;
+        margin-top: 7px;
+        margin-right: -20px;
+        color: #868485;
+    }
+}
+
+@media(max-width: 768px){
+    #contact label{
+        text-align: right;
+        margin-top: -15px;
+        float: left;
+        color: #868485;
+    }
 }
 
 @media(min-width: 768px){
