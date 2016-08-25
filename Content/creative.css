@@ -127,6 +127,10 @@ aside {
     border-color: #F3F3F3;
     background-color: #F3F3F3;
     border-width: 0 0 0;
+    opacity: 0.8;
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
 }
 
 .navbar-default.affix .navbar-header .navbar-brand {
@@ -489,9 +493,9 @@ body {
 .divGalery img {
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 8px 6px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 6px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 6px -2px rgba(0,0,0,0.75);
     transition-property: all;
     transition-duration: 500ms;
     transition-timing-function: ease-in-out;
@@ -526,8 +530,8 @@ body {
 @media(min-width: 768px){
     .containerLogo,
     .containerLogo.affix-top {
-        width: 110px;
-        height: 109px;
+        width: 88px;
+        height: 88px;
         transition-property: all;
         transition-duration: 1000ms;
         transition-timing-function: ease-in-out;
@@ -552,6 +556,15 @@ body {
     font-family: 'MyriadProSemibold';
 }
 
+.menuAnim li{
+    height: 35px;
+    margin-top: 8px;
+}
+
+.menuAnim li a{
+    margin-top: -8px;
+}
+
 @media(min-width: 768px){
     .menuAnim{
         transition-property: all;
@@ -560,7 +573,7 @@ body {
         float: right !important;
     }
     .menuAnim.affix-top{
-        margin-top: 30px;
+        margin-top: 21px;
         margin-right: 70px;
     }
 
@@ -573,6 +586,9 @@ body {
     }
     .menuAnim.affix .menuBorderRight{
         border-right: 3px solid #CDCDCD;
+        transition-property: all;
+        transition-duration: 1000ms;
+        transition-timing-function: ease-in-out;
     }
 }
 
@@ -717,6 +733,7 @@ body {
 @media(min-width: 768px){
     .btnEnviarEmail{
         margin-top: 78px;
+        margin-right: 8%;
     }
 }
 
@@ -730,12 +747,14 @@ body {
     height: auto;
     width: 40px;
     cursor: pointer;
+    margin-top: -8px;
 }
 
 .cinzaTexto,
 .btnEnviarEmail a{
     color: #807e7e;
     font-family: 'CicleSemi';
+    margin-left: -1px;
 }
 
 .menuAnim .active a{
@@ -748,4 +767,9 @@ body {
 #txtMensagem{
     font-family: 'CicleFina';
     font-size: 15px;
+    box-shadow: inset 2px 3px 7px #a6a6a6;
+}
+
+.contactTitle{
+    margin: -5% 0% 5% 4%;
 }
