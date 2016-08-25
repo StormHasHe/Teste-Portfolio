@@ -707,7 +707,7 @@ body {
 #portfolio{
     background-image: url(images/planodefundo-roxo1.jpg);
     background-color: white;
-    background-position: center;
+    background-position: 0px 0px;
     background-size: cover
 }
 
