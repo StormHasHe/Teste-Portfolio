@@ -705,9 +705,9 @@ body {
 }
 
 #portfolio{
-    background-image: url(images/planodefundo-roxo1.jpg);
+    /*background-image: url(images/planodefundo-roxo1.jpg);*/
     background-color: white;
-    background-position: 0px 0px;
+    background-position: center;
     background-size: cover
 }
 
