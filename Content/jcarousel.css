@@ -52,17 +52,14 @@
     width: 30px;
     height: 30px;
     text-align: center;
-    background: #4E443C;
+    /*background: #3ec567;*/
     color: #fff;
     text-decoration: none;
     text-shadow: 0 0 1px #000;
-    font: 24px/27px Arial, sans-serif;
+    font: 90px/27px Arial, sans-serif;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    -webkit-box-shadow: 0 0 4px #F0EFE7;
-    -moz-box-shadow: 0 0 4px #F0EFE7;
-    box-shadow: 0 0 4px #F0EFE7;
 }
 
 .jcarousel-control-prev:hover,
@@ -70,7 +67,7 @@
 .jcarousel-control-next:hover,
 .jcarousel-control-next:focus{
     text-decoration: none;
-    color: #fff;
+    color: #3ec567;
 }
 
 .jcarousel-control-prev {
