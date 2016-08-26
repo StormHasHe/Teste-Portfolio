@@ -778,3 +778,76 @@ body {
 .contactTitle{
     margin: -5% 0% 5% 4%;
 }
+
+/* Accordion */
+
+.accordion {
+    width: 100%;
+    max-width: 1080px;
+    height: 250px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.accordion ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion ul li {
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    width: 16.666%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 500ms ease;
+    background-size: cover;
+    cursor: pointer;
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.accordion ul li:nth-child(1) {
+    background-image: url("images/portfolio/TenisPolar/Feature Graphic.png"); 
+}
+
+.accordion ul li:nth-child(2) { 
+    background-image: url("images/portfolio/TenisPolar/divulgacao_facebook.png");
+     }
+
+.accordion ul li:nth-child(3) { 
+    background-image: url("images/portfolio/PequenosInfinitos/CAPA1.jpg"); 
+}
+
+.accordion ul li:nth-child(1):hover{
+    -webkit-filter: grayscale(0);
+}
+.accordion ul li:nth-child(2):hover{
+    -webkit-filter: grayscale(0);
+}
+.accordion ul li:nth-child(3):hover{
+    -webkit-filter: grayscale(0);
+}
+
+.accordion ul:hover li { 
+    width: 15%; 
+    
+}
+
+.accordion ul:hover li:hover {
+    width: 60%; 
+}
+
+.accordion ul:hover li:hover a { 
+    background: rgba(0, 0, 0, 0.4); 
+}
+
+.accordion ul:hover li:hover a * {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
