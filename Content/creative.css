@@ -887,6 +887,7 @@ body {
     #btnTopo{
         position: fixed;
         top: 75%;
+        left: 120%;
         cursor: pointer;
         transition-property: all;
         transition-duration: 1000ms;
