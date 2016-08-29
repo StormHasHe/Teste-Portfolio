@@ -472,6 +472,12 @@ img::-moz-selection {
   color: white;
 }
 
+@media(max-width: 768px){
+    .footer{
+        font-size: 12px;
+    }
+}
+
 .alertFade {
     border: 1px solid transparent;
     border-radius: 4px;
