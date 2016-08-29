@@ -901,3 +901,9 @@ body {
         left: 85%;
     }
 }
+
+@media(min-width: 768px){
+    #btnTopo{
+        display: none;
+    }
+}
