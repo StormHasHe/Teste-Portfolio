@@ -24,6 +24,14 @@
         event.preventDefault();
     });
 
+    $('#btnTopo').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('data-href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -57,6 +65,12 @@
     })
 
     $('.menuAnim').affix({
+        offset: {
+            top: 100
+        }
+    })
+
+    $('#btnTopo').affix({
         offset: {
             top: 100
         }

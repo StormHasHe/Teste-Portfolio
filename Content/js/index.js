@@ -47,8 +47,8 @@ function loadMobile(){
     var content = "" +
     "            <div class='images-slide'> "+
     "                <a href='javascript:;'><img data-toggle='modal' data-target='#lightboxOwner' src='Content/images/portfolio/Owner/ownerLogo.jpg' /></a>"+
-    "                <a href='javascript:;'><img data-toggle='modal' data-target='#lightboxOwner' src='Content/images/portfolio/TenisPolar/divulgacao_facebook.png' /></a>"+
-    "                <a href='javascript:;'><img data-toggle='modal' data-target='#lightboxOwner' src='Content/images/portfolio/PequenosInfinitos/CAPA1.jpg' /></a>"+
+    "                <a href='javascript:;'><img data-toggle='modal' data-target='#lightboxTP' src='Content/images/portfolio/TenisPolar/divulgacao_facebook.png' /></a>"+
+    "                <a href='javascript:;'><img data-toggle='modal' data-target='#lightboxPI' src='Content/images/portfolio/PequenosInfinitos/CAPA1.jpg' /></a>"+
     "            </div>";
 
     $(".divGalery").html(content);

@@ -468,7 +468,7 @@ img::-moz-selection {
   padding-top:20px;
   background-color: #A4A2A3;
   text-align: center;
-  font-family: 'MyriadProSemibold';
+  font-family: 'MyriadProLight';
   color: white;
 }
 
@@ -535,8 +535,8 @@ body {
 @media(min-width: 768px){
     .containerLogo,
     .containerLogo.affix-top {
-        width: 88px;
-        height: 88px;
+        width: 48px;
+        height: 50px;
         transition-property: all;
         transition-duration: 1000ms;
         transition-timing-function: ease-in-out;
@@ -544,7 +544,7 @@ body {
         filter: grayscale(0%);
         background: url(images/LOGO-portfolio.png);
         background-size: cover;
-        margin-left: 60%;
+        margin-left: 100px;
         position: relative;
         cursor: pointer;
     }
@@ -578,7 +578,7 @@ body {
         float: right !important;
     }
     .menuAnim.affix-top{
-        margin-top: 21px;
+        margin-top: 0px;
         margin-right: 70px;
     }
 
@@ -775,6 +775,13 @@ body {
     box-shadow: inset 2px 3px 7px #a6a6a6;
 }
 
+#txtNome:focus,
+#txtEmail:focus,
+#txtAssunto:focus,
+#txtMensagem:focus{
+    border-color: #78D694;
+}
+
 .contactTitle{
     margin: -5% 0% 5% 4%;
 }
@@ -874,4 +881,22 @@ body {
 .images-slide img{
     widows: 300px;
     height: 250px;
+}
+
+@media(min-width: 768px){
+    #btnTopo{
+        position: fixed;
+        top: 75%;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 1000ms;
+        transition-timing-function: ease-in-out;
+    }
+    #btnTopo.affix-top{
+        left: 120%;
+    }
+
+    #btnTopo.affix{
+        left: 85%;
+    }
 }
