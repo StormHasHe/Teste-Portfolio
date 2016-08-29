@@ -778,6 +778,7 @@ body {
 #txtMensagem{
     font-family: 'CicleFina';
     font-size: 15px;
+    color: #3ec567;
     box-shadow: inset 2px 3px 7px #a6a6a6;
 }
 
@@ -786,6 +787,19 @@ body {
 #txtAssunto:focus,
 #txtMensagem:focus{
     border-color: #78D694;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3ec567 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #3ec567 !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #3ec567 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #3ec567 !important;
 }
 
 .contactTitle{
