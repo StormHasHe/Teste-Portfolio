@@ -593,10 +593,10 @@ body {
         margin-right: 0px;
     }
     .menuAnim.affix-top .menuBorderRight{
-        border-right: 3px solid #660E5A;
+        border-right: 2px solid #464445;
     }
     .menuAnim.affix .menuBorderRight{
-        border-right: 3px solid #CDCDCD;
+        border-right: 2px solid #CDCDCD;
         transition-property: all;
         transition-duration: 1000ms;
         transition-timing-function: ease-in-out;
