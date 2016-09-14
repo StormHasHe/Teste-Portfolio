@@ -766,6 +766,7 @@ body {
     color: #807e7e;
     font-family: 'CicleSemi';
     margin-left: -1px;
+    font-weight: bold;
 }
 
 .menuAnim .active a{
