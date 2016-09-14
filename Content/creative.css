@@ -469,7 +469,7 @@ img::-moz-selection {
   background-color: #A4A2A3;
   text-align: center;
   font-family: 'MyriadProLight';
-  color: white;
+  color: #dcdcdc;
 }
 
 @media(max-width: 768px){
