@@ -49,14 +49,14 @@
     position: absolute;
     top: 50%;
     margin-top: -15px;
-    width: 31px;
-    height: 39px;
+    width: 32px;
+    height: 32px;
     text-align: center;
     background: #CDCDCD;
     color: #fff;
     text-decoration: none;
     /*text-shadow: 0 0 1px #000;*/
-    font: 73px/27px Arial, sans-serif;
+    font: 30px/27px Arial, sans-serif;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -76,7 +76,6 @@
 
 .jcarousel-control-next {
     right: 15px;
-    text-align: right;
 }
 
 /** Carousel Pagination **/
