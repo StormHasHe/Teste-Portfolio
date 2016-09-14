@@ -550,7 +550,7 @@ body {
         filter: grayscale(0%);
         background: url(images/LOGO-portfolio.png);
         background-size: cover;
-        margin-left: 100px;
+        margin-left: 32px;
         position: relative;
         cursor: pointer;
     }
