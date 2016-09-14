@@ -76,6 +76,7 @@
 
 .jcarousel-control-next {
     right: 15px;
+    padding-left: 3px;
 }
 
 /** Carousel Pagination **/
