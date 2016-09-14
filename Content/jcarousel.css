@@ -60,6 +60,7 @@
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
+    opacity: 0.8;
 }
 
 .jcarousel-control-prev:hover,
