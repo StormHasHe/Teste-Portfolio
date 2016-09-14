@@ -839,15 +839,15 @@ body {
 }
 
 .accordion ul li:nth-child(1) {
-    background-image: url("images/portfolio/TenisPolar/Feature Graphic.png"); 
+    background-image: url("images/portfolio/capa1.jpg"); 
 }
 
 .accordion ul li:nth-child(2) { 
-    background-image: url("images/portfolio/TenisPolar/divulgacao_facebook.png");
+    background-image: url("images/portfolio/capa2.jpg");
      }
 
 .accordion ul li:nth-child(3) { 
-    background-image: url("images/portfolio/PequenosInfinitos/CAPA1.jpg"); 
+    background-image: url("images/portfolio/capa3.jpg"); 
 }
 
 .accordion ul li:nth-child(1):hover{
