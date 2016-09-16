@@ -499,6 +499,7 @@ body {
 
 .divGalery {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .divGalery img {
@@ -680,6 +681,7 @@ body {
 .resumo h1,
 .roxoHeader{ 
     color: #2f032a !important;
+    margin-bottom: 0px;
 }
 
 .contatoColor{
@@ -689,12 +691,15 @@ body {
 .resumo h3{
     color: #520029;
     font-family: "CenturyGothicRegular";
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 .resumo p{
     color: #807e7e;
     font-size: 18px;
     font-family: "CicleFina";
+    font-weight: bold;
 }
 
 .cillaH2{
@@ -808,7 +813,7 @@ body {
 }
 
 .contactTitle{
-    margin: -5% 0% 5% 4%;
+    margin: -5% 0% 2% 4%;
 }
 
 /* Accordion */
@@ -840,7 +845,7 @@ body {
     transition: all 500ms ease;
     background-size: cover;
     cursor: pointer;
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    /*-webkit-filter: grayscale(1);  Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 .accordion ul li:nth-child(1) {
@@ -931,4 +936,11 @@ body {
     #btnTopo{
         display: none;
     }
+}
+
+.socialMedia{
+    height: auto;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
