@@ -946,4 +946,12 @@ body {
     width: 30px;
     margin-right: 5px;
     margin-left: 5px;
+    filter: grayscale(100%);
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+
+.socialMedia:hover{
+    filter: grayscale(0%);
 }
