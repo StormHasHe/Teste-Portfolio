@@ -30,8 +30,8 @@
 }
 
  @font-face {
-    font-family: 'RobotoRegular'; /*a name to be used later*/
-    src: url('fonts/Roboto-Regular.ttf'); /*URL to font*/
+    font-family: 'RobotoLight'; /*a name to be used later*/
+    src: url('fonts/Roboto-Light.ttf'); /*URL to font*/
 }
 
 html,
@@ -706,7 +706,7 @@ body {
 .resumo p{
     color: #807e7e;
     font-size: 18px;
-    font-family: "RobotoRegular";
+    font-family: "RobotoLight";
 }
 
 .cillaH2{
@@ -779,7 +779,7 @@ body {
 
 .cinzaTexto{
     color: #807e7e;
-    font-family: 'RobotoRegular';
+    font-family: 'RobotoLight';
     margin-left: -1px;
 }
 
