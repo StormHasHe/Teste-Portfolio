@@ -551,7 +551,7 @@ body {
         transition-duration: 1000ms;
         transition-timing-function: ease-in-out;
         -webkit-filter: brightness(0) invert(1);
-        filter: grayscale(0%);
+        filter: brightness(0) invert(1);
         background: url(images/LOGO-portfolio.png);
         background-size: cover;
         margin-left: 32px;
@@ -561,7 +561,7 @@ body {
     .containerLogo.affix{
         margin-left: 0%;
         -webkit-filter: brightness(1) invert(0); 
-        filter: grayscale(100%);
+        filter: brightness(1) invert(0);
         height: 50px;
         width: 48px;
     }
@@ -948,7 +948,7 @@ body {
     margin-left: 5px;
     filter: grayscale(100%);
     transition-property: all;
-    transition-duration: 500ms;
+    transition-duration: 400ms;
     transition-timing-function: ease-in-out;
 }
 
