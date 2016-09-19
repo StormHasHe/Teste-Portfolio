@@ -777,7 +777,12 @@ body {
     margin-top: -3px;
 }
 
-.cinzaTexto,
+.cinzaTexto{
+    color: #807e7e;
+    font-family: 'RobotoRegular';
+    margin-left: -1px;
+}
+
 .btnEnviarEmail a{
     color: #807e7e;
     font-family: 'CicleFina';
