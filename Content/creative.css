@@ -799,7 +799,7 @@ body {
 #txtAssunto,
 #txtMensagem{
     font-family: 'RobotoLight';
-    font-size: 15px;
+    font-size: 13px;
     color: #3ec567;
     box-shadow: inset 2px 3px 7px #a6a6a6;
 }
