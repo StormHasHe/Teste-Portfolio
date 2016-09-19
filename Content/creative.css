@@ -112,6 +112,7 @@ aside {
     border-color: #363636;
     background-color: #363636;
     border-width: 0 0 0;
+    opacity: 0.9;
 }
 
 .navbar-default .navbar-header .navbar-brand {
