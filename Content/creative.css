@@ -29,6 +29,11 @@
     src: url('fonts/MyriadProLight.ttf'); /*URL to font*/
 }
 
+ @font-face {
+    font-family: 'RobotoRegular'; /*a name to be used later*/
+    src: url('fonts/Roboto-Regular.ttf'); /*URL to font*/
+}
+
 html,
 body {
     width: 100%;
@@ -701,8 +706,7 @@ body {
 .resumo p{
     color: #807e7e;
     font-size: 18px;
-    font-family: "CicleFina";
-    font-weight: bold;
+    font-family: "RobotoRegular";
 }
 
 .cillaH2{
