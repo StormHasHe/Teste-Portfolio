@@ -1,4 +1,6 @@
-﻿var ownerGallery = [];
+﻿var currentGallery = "";
+
+var ownerGallery = [];
 
 ownerGallery.push("Content/images/portfolio/Owner/ownerLogo.jpg");
 ownerGallery.push("Content/images/portfolio/Owner/owner.jpg");
@@ -89,36 +91,41 @@ function loadMobile(){
 }
 
 function loadGalleryDetails(galleryName){
+    if (currentGallery == galleryName){
+        $("#portfolioDetails").fadeToggle(500);
+        event.stopImmediatePropagation();
+    }
+    else {
+        $("#portfolioDetails").fadeOut(500).promise().done(function(){
+            $(".divGaleryDetails").html("");
 
-    $("#portfolioDetails").fadeOut(500).promise().done(function(){
-        $(".divGaleryDetails").html("");
+            switch (galleryName){
+                case 'Owner':
+                    var title = "Owner Wearing";
+                    var description = "Projeto feito para uma nova loja de roupas recem lançada.";
+                    loadGalleryTitleAndDescription(title, description);
+                    loadGalleryImages(ownerGallery);
+                    break;
+                case 'TenisPolar':
+                    var title = "Tenis Polar";
+                    var description = "Aplicativo lançado para android, que codifica mensagens.";
+                    loadGalleryTitleAndDescription(title, description);
+                    loadGalleryImages(tpGallery);
+                    break;
+                case 'PequenosInfinitos':
+                    var title = "Pequenos Infinitos";
+                    var description = "Design do livro escrito por mim como trabalho de conclusão da faculdade.";
+                    loadGalleryTitleAndDescription(title, description);
+                    loadGalleryImages(pequenosInfinitosGallery);
+                    break;
+            }
 
-        switch (galleryName){
-            case 'Owner':
-                var title = "Owner Wearing";
-                var description = "Projeto feito para uma nova loja de roupas recem lançada.";
-                loadGalleryTitleAndDescription(title, description);
-                loadGalleryImages(ownerGallery);
-                break;
-            case 'TenisPolar':
-                var title = "Tenis Polar";
-                var description = "Aplicativo lançado para android, que codifica mensagens.";
-                loadGalleryTitleAndDescription(title, description);
-                loadGalleryImages(tpGallery);
-                break;
-            case 'PequenosInfinitos':
-                var title = "Pequenos Infinitos";
-                var description = "Design do livro escrito por mim como trabalho de conclusão da faculdade.";
-                loadGalleryTitleAndDescription(title, description);
-                loadGalleryImages(pequenosInfinitosGallery);
-                break;
-        }
+            setImageDetailClickEvent();
+            $("#portfolioDetails").fadeIn(500);
+        });
+    }
 
-        setImageDetailClickEvent();
-        $("#portfolioDetails").fadeIn(500);
-    });
-
-    
+    currentGallery = galleryName;
 }
 
 function setImageDetailClickEvent(){
