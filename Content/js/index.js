@@ -94,6 +94,8 @@ function loadGalleryDetails(galleryName){
     if (currentGallery == galleryName){
         $("#portfolioDetails").fadeToggle(500);
         event.stopImmediatePropagation();
+        currentGallery = "";
+        return false;
     }
     else {
         $("#portfolioDetails").fadeOut(500).promise().done(function(){
