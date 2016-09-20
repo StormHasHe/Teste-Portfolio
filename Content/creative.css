@@ -104,10 +104,6 @@ aside {
     padding: 50px 0;
 }
 
-.galery-padding {
-    padding: 10px;
-}
-
 .navbar-default {
     border-color: #363636;
     background-color: #363636;
@@ -511,6 +507,16 @@ body {
     margin-bottom: 30px;
 }
 
+.divGaleryDetails {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.divGaleryDetails img {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
 .divGalery img {
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -732,11 +738,14 @@ body {
     background-size: cover;
 }
 
-#portfolio{
+#portfolio,
+#portfolioDetails{
     /*background-image: url(images/planodefundo-roxo1.jpg);*/
     background-color: white;
     background-position: center;
-    background-size: cover
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media(min-width: 768px){
@@ -960,8 +969,23 @@ body {
     transition-property: all;
     transition-duration: 400ms;
     transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 
 .socialMedia:hover{
     filter: grayscale(0%);
+}
+
+.portfolioDetails img {
+    margin-bottom: 20px;
+}
+
+#portfolioDetails {
+    padding-top: 1px;
+}
+
+.lightboxImg {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
