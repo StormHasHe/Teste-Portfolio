@@ -738,9 +738,16 @@ body {
     background-size: cover;
 }
 
+#portfolio{
+    background-image: url(images/fundo_portfolio2.jpg);
+}
+
+#portfolioDetails{
+    background-image: url(images/planodefundo-cinza1.jpg);
+}
+
 #portfolio,
 #portfolioDetails{
-    /*background-image: url(images/planodefundo-roxo1.jpg);*/
     background-color: white;
     background-position: center;
     background-size: cover;
